@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Annie+Use+Your+Telescope&family=Comfortaa:wght@300;400;500;600;700&family=Gloria+Hallelujah&family=Patrick+Hand&family=Peddana&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@50;100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Peddana', serif;
+font-family: 'Sacramento', cursive; */
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp8148965.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+	height: 100%;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3px;
+  color: #FFFFFA;
+  text-transform: uppercase;
+}
+
+table{
+  text-align: center;
+  background: rgba(18, 11, 59, 0.44);
+  color: white;
+  width: 210px;
+  height: 210px;
+  border-collapse: collapse;
+  table-layout: fixed ;
+}
+
+table, tr, td{
+  font-size: 12px;
+  transition-property: color, background;
+  transition: 0.3s ease;
+  width: 210px;
+}
+
+td.hvr{
+  background: #454261;
+  border-radius: 0px;
+  color: #white;
+}
+
+td.hvr:hover{
+  background: #FBC8CD;
+  color: #423241;
+  border-radius: 40px;
+}
+
+td.mhvr{
+  background: #454261;
+  color: #white;
+}
+
+td.mhvr:hover{
+  background: #FBC8CD;
+  color: #423241;
+}
+
+tr:nth-child(1){
+  font-weight: bold;
+  background: rgba(0, 1, 23, 0.4)
+}
+
+tr:nth-child(2){
+  font-weight: 500;
+  background: rgba(0, 1, 33, 0.25);
+}
+
+tr:nth-child(3){
+}
+
+.jtoa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+@media (max-width: 999px){
+  .jtoa{
+    flex-direction: column;
+  }
+}
+
+.mtoa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+@media (max-width: 999px){
+  .mtoa{
+    flex-direction: column;
+  }
+}
+
+.stod{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+@media (max-width: 999px){
+  .stod{
+    flex-direction: column;
+  }
+}
